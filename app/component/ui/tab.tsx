@@ -12,7 +12,7 @@ export default function Tap() {
     <div className="pt-[40px]">
       <div className="">
         <Tabs
-          className=" mr-14"
+          className=" lg:mr-14"
           aria-label="Options"
           isVertical={isVertical}
           classNames={{
@@ -26,7 +26,7 @@ export default function Tap() {
             key="Experience"
             className=""
             title={
-              <div className="px-[115px] flex items-center justify-start space-x-2 text-left">
+              <div className="lg:px-[115px] px-[50px] flex items-center justify-start space-x-2 text-left">
                 <span className=" text-white  font-bold text-lg">
                   Experience
                 </span>
@@ -48,7 +48,7 @@ export default function Tap() {
             key="Education"
             className=""
             title={
-              <div className="px-[120px] flex items-center justify-center space-x-2">
+              <div className="lg:px-[120px] px-[55px] flex items-center justify-center space-x-2">
                 <span className=" text-white  font-bold text-lg">
                   Education
                 </span>
@@ -70,7 +70,7 @@ export default function Tap() {
             key="Skills"
             className=""
             title={
-              <div className="px-[141px] flex items-center justify-center space-x-2 ">
+              <div className="lg:px-[141px] px-[76px] flex items-center justify-center space-x-2 ">
                 <span className=" text-white  font-bold text-lg">Skills</span>
               </div>
             }
@@ -89,8 +89,8 @@ export default function Tap() {
           <Tab
             key="About me"
             className=""
-            title={ 
-              <div className="px-[122px] flex items-center justify-center space-x-2">
+            title={
+              <div className="lg:px-[122px] px-[57px] flex items-center justify-center space-x-2">
                 <span className=" text-white  font-bold text-lg">About me</span>
               </div>
             }

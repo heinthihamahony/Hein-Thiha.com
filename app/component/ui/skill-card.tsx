@@ -3,11 +3,11 @@ import { Figma } from "lucide-react";
 export default function SkillCard() {
   return (
     <>
-      <div className=" mt-6 pb-[76px]">
-        <div className=" flex items-center gap-5">
+      <div className=" mt-6 lg:pb-[76px] pb-[232px]">
+        <div className="lg:flex items-center gap-5 grid grid-cols-3">
           <div className=" bg-[#282730] p-4 rounded-2xl">
             <svg
-              className=" w-20"
+              className=" lg:w-20 w-30"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="rgba(52,211,153,1)"
@@ -17,7 +17,7 @@ export default function SkillCard() {
           </div>
           <div className=" bg-[#282730] p-4 rounded-2xl">
             <svg
-              className=" w-20"
+              className=" lg:w-20 w-30"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="rgba(52,211,153,1)"
@@ -27,7 +27,7 @@ export default function SkillCard() {
           </div>
           <div className=" bg-[#282730] p-4 rounded-2xl">
             <svg
-              className=" w-20"
+              className=" lg:w-20 w-30"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="rgba(52,211,153,1)"
@@ -37,7 +37,7 @@ export default function SkillCard() {
           </div>
           <div className=" bg-[#282730] p-4 rounded-2xl">
             <svg
-              className=" w-20"
+              className=" lg:w-20 w-30"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="rgba(52,211,153,1)"
@@ -47,7 +47,7 @@ export default function SkillCard() {
           </div>
           <div className=" bg-[#282730] p-4 rounded-2xl">
             <svg
-              className=" w-20"
+              className=" lg:w-20 w-30"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="rgba(52,211,153,1)"
@@ -55,9 +55,37 @@ export default function SkillCard() {
               <path d="M11.9996 4.85999C8.82628 4.85999 6.84294 6.44665 6.04961 9.61999C7.23961 8.03332 8.62794 7.43832 10.2146 7.83499C11.12 8.06109 11.7666 8.71757 12.4835 9.44545C13.6507 10.6295 15.0004 12 17.9496 12C21.1229 12 23.1063 10.4133 23.8996 7.23998C22.7096 8.82665 21.3213 9.42165 19.7346 9.02499C18.8292 8.79889 18.1827 8.1424 17.4657 7.41452C16.2995 6.23047 14.9498 4.85999 11.9996 4.85999ZM6.04961 12C2.87628 12 0.892943 13.5867 0.0996094 16.76C1.28961 15.1733 2.67794 14.5783 4.26461 14.975C5.17 15.2011 5.81657 15.8576 6.53354 16.5855C7.70073 17.7695 9.05039 19.14 11.9996 19.14C15.1729 19.14 17.1563 17.5533 17.9496 14.38C16.7596 15.9667 15.3713 16.5617 13.7846 16.165C12.8792 15.9389 12.2326 15.2824 11.5157 14.5545C10.3495 13.3705 8.99982 12 6.04961 12Z"></path>
             </svg>
           </div>
+          <div className="lg:hidden bg-[#282730] p-4 rounded-2xl">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#34d399"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="lucide lucide-figma lg:w-20 w-30"
+            >
+              <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z" />
+              <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z" />
+              <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z" />
+              <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z" />
+              <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z" />
+            </svg>
+          </div>
+          <div className="lg:hidden bg-[#282730] p-4 rounded-2xl">
+            <svg
+              className="lg:w-20 w-30"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="rgba(52,211,153,1)"
+            >
+              <path d="M17.6644 17.6493L10.2602 8H8V16H10V10.9462L16.0869 18.8788C14.8907 19.5909 13.4931 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 14.2053 19.1077 16.2022 17.6644 17.6493ZM12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM14 12V8H16V12H14Z"></path>
+            </svg>
+          </div>
         </div>
         <br />
-        <div className="flex items-center gap-5">
+        <div className="lg:flex hidden items-center gap-5">
           <div className=" bg-[#282730] p-4 rounded-2xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +95,7 @@ export default function SkillCard() {
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              className="lucide lucide-figma w-20"
+              className="lucide lucide-figma lg:w-20 w-14"
             >
               <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z" />
               <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z" />
@@ -78,7 +106,7 @@ export default function SkillCard() {
           </div>
           <div className=" bg-[#282730] p-4 rounded-2xl">
             <svg
-              className=" w-20"
+              className="lg:w-20 w-14"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="rgba(52,211,153,1)"

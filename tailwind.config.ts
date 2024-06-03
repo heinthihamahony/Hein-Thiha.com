@@ -54,6 +54,9 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        animation: {
+          "meteor-effect": "meteor 5s linear infinite",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -64,6 +67,14 @@ const config = {
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
+        },
+        meteor: {
+          "0%": { transform: "rotate(215deg) translateX(0)", opacity: "1" },
+          "70%": { opacity: "1" },
+          "100%": {
+            transform: "rotate(215deg) translateX(-500px)",
+            opacity: "0",
+          },
         },
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },

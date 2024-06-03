@@ -4,7 +4,7 @@ import ResumeHero from "../component/ui/resume-herosection";
 export default function Resume() {
   return (
     <>
-      <div className=" mx-40 pt-10 pb-[97px]">
+      <div className=" lg:mx-40 pt-10 lg:pb-[97px] mx-10">
         <Navbar />
         <ResumeHero />
       </div>

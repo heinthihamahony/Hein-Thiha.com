@@ -5,8 +5,8 @@ import { ButtonOutline } from "./Outline-button";
 export default function HeroSection() {
   return (
     <>
-      <div className=" flex justify-between items-center mt-20 ">
-        <div className="">
+      <div className="lg:flex justify-between items-center mt-20">
+        <div className="text-center lg:text-start">
           <h6 className=" font-semibold text-[#9898a1] space-y-4">
             Frontend Developer
           </h6>
@@ -15,27 +15,27 @@ export default function HeroSection() {
             <h1 className=" text-[#34d399]">Hein Thiha</h1>
           </div>
 
-          <ul className="text-sm text-[#9898a1] space-y-4 w-[700px]">
-            <li>
+          <div className="text-sm text-[#9898a1] space-y-4">
+            <p>
               {" "}
               I am a frontend developer focused on creating user-friendly
               websites using technologies like HTML, CSS, JavaScript, React,
               Tailwind, Figma, and Next.js.
-            </li>
-            <li>
+            </p>
+            <p>
               I design and develop precise, innovative web designs that
               prioritize ease of use, understanding and responding to user needs
               and feedback.
-            </li>
-            <li>
+            </p>
+            <p>
               I combine effort, creativity, and technical innovation to deliver
               top service and create effective websites that enhance your
               business.
-            </li>
-          </ul>
+            </p>
+          </div>
         </div>
         <img
-          className=" rounded-full border-4 border-[#34d399] w-80 h-80 object-cover"
+          className="md:mx-auto md:mt-10 rounded-full border-4 border-[#34d399] w-80 h-80 object-cover"
           src="https://lh3.google.com/u/0/d/1eAB9m0aThHpUb_96_3w0ugh8_nADWhui=w886-h1594-iv1"
           alt=""
         />

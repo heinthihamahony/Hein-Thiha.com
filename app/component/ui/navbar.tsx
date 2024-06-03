@@ -19,25 +19,25 @@ export default function Navbar() {
           </Link>
           <Link
             className="hover:text-[#34d399] active:underline underline-offset-4 decoration-2 decoration-[#34d399]"
-            href="/hein"
-          >
-            Service
-          </Link>
-          <Link
-            className="hover:text-[#34d399] active:underline underline-offset-4 decoration-2 decoration-[#34d399]"
             href="/resume"
           >
             Resume
           </Link>
           <Link
             className="hover:text-[#34d399] active:underline underline-offset-4 decoration-2 decoration-[#34d399]"
-            href="#"
+            href="/work"
           >
             Work
           </Link>
           <Link
             className="hover:text-[#34d399] active:underline underline-offset-4 decoration-2 decoration-[#34d399]"
-            href="#"
+            href="/hein"
+          >
+            Service
+          </Link>
+          <Link
+            className="hover:text-[#34d399] active:underline underline-offset-4 decoration-2 decoration-[#34d399]"
+            href="/content"
           >
             Content
           </Link>
