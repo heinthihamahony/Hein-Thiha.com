@@ -1,5 +1,4 @@
-import { Button } from "@nextui-org/react";
-import { Download } from "lucide-react";
+
 import { ButtonOutline } from "./Outline-button";
 
 export default function HeroSection() {

@@ -1,5 +1,4 @@
-import { Card } from "@nextui-org/react";
-import { CardDescription, CardTitle } from "./card-hover-effect";
+
 
 export default function EduCardHoverEffectDemo() {
   return (

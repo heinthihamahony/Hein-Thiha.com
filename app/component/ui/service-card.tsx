@@ -1,6 +1,5 @@
 import { Button } from "@nextui-org/react";
-import { MoveDownRight } from "lucide-react";
-import Link from "next/link";
+
 
 export default function ServiceCard() {
   return (
