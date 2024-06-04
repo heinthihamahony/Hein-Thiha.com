@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
     <>
-      <div className=" lg:flex lg:gap-40 gap-10 mt-6 lg:pb-[168px] pb-[476px] md:mx-10">
+      <div className=" lg:flex lg:gap-40 gap-10 mt-6 lg:pb-[168px] pb-[476px] md:mx-10 text-white">
         <div className=" space-y-5">
           <div className=" flex items-center gap-5">
             <span className=" text-[#9898a1] text-sm">Name</span> Hein Thiha

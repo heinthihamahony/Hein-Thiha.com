@@ -7,10 +7,10 @@ export default function Content() {
     <>
       <div className="lg:mx-40 pt-10 pb-[149px] mx-10">
         <Navbar />
-        <div className="md:hidden lg:flex">
+        <div className="hidden lg:flex">
           <InputFormDemo />
         </div>
-        <div className="md:flex lg:hidden">
+        <div className="flex lg:hidden">
           <MdSmInputFormDemo />
         </div>
       </div>

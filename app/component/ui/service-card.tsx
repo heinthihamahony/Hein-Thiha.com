@@ -1,10 +1,9 @@
 import { Button } from "@nextui-org/react";
 
-
 export default function ServiceCard() {
   return (
     <>
-      <div className=" lg:grid lg:grid-cols-3 lg:gap-10 md:space-y-10 lg:space-y-0 mt-20 ">
+      <div className=" lg:grid lg:grid-cols-3 lg:gap-10 space-y-10 lg:space-y-0 mt-20 text-white">
         <div className=" bg-[#282730] p-8 rounded-3xl shadow-lg shadow-[#29493d]">
           <div className="">
             <p className="text-lg font-bold">Components</p>

@@ -18,7 +18,7 @@ export function MdSmInputFormDemo() {
     console.log("Form submitted");
   };
   return (
-    <div className="mt-20 mx-auto items-center gap-40">
+    <div className="mt-20 mx-auto items-center gap-40 text-white">
       <div className="">
         <div className="flex items-center gap-4">
           <div className="">

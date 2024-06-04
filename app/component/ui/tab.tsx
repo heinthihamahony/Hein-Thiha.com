@@ -9,7 +9,7 @@ import AboutMe from "./aboutme";
 export default function Tap() {
   const [isVertical, setIsVertical] = React.useState(true);
   return (
-    <div className="pt-[40px]">
+    <div className="pt-[40px] text-white">
       <div className="">
         <Tabs
           className=" lg:mr-14"

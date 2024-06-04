@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <div className=" flex justify-between items-center ">
+      <div className=" flex justify-between items-center text-white">
         <div>
           <a className="text-3xl font-mono" href="/">
             Hein<samp className="text-[#34d399]">.</samp>
@@ -17,6 +17,7 @@ export default function Navbar() {
           >
             Home
           </Link>
+
           <Link
             className="hover:text-[#34d399] active:underline underline-offset-4 decoration-2 decoration-[#34d399]"
             href="/resume"
