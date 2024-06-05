@@ -4,7 +4,7 @@ import { Download, Facebook } from "lucide-react";
 export function ButtonOutline() {
   return (
     <>
-      <div className="flex items-center gap-5 mt-4 md:justify-center md:mt-10 text-white">
+      <div className="flex items-center gap-5 mt-4 justify-center lg:justify-start md:mt-10 text-white">
         <Button
           className=" border border-[#34d399] rounded-full text-[#34d399] hover:border-[#059669] hover:text-[#059669] flex items-center gap-2 px-4 py-2 font-semibold"
           variant="bordered"

@@ -16,7 +16,7 @@ export default function AboutMe() {
             <span className=" text-[#9898a1] text-sm">Freelance</span> Avaliable
           </div>
         </div>
-        <div className="space-y-5 md:mt-5">
+        <div className="space-y-5 mt-5 lg:mt-0">
           <div className=" lg:flex items-center gap-5">
             <span className=" text-[#9898a1] text-sm">Phone</span> +959 756 547
             475 <span className=" text-[#9898a1] text-sm">/</span>+66 918 376

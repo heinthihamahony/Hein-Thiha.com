@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <div className=" flex justify-between items-center text-white">
+      <div className=" md:flex justify-between items-center text-white hidden">
         <div>
           <a className="text-3xl font-mono" href="/">
             Hein<samp className="text-[#34d399]">.</samp>

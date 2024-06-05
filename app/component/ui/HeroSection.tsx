@@ -1,4 +1,3 @@
-
 import { ButtonOutline } from "./Outline-button";
 
 export default function HeroSection() {
@@ -34,15 +33,15 @@ export default function HeroSection() {
           </div>
         </div>
         <img
-          className="mx-auto md:mt-10 rounded-full border-4 border-[#34d399] w-80 h-80 object-cover"
+          className="mx-auto mt-10 rounded-full border-4 border-[#34d399] w-80 h-80 object-cover"
           src="https://lh3.google.com/u/0/d/1eAB9m0aThHpUb_96_3w0ugh8_nADWhui=w886-h1594-iv1"
           alt=""
         />
       </div>
       <ButtonOutline />
-      <div className=" flex justify-between items-center mt-20 text-white">
-        <div className=" flex tems-center gap-2">
-          <h1 className=" text-5xl font-semibold i">12</h1>
+      <div className=" md:flex justify-between items-center mt-20 text-white hidden">
+        <div className=" flex tems-center gap-2 ">
+          <h1 className=" text-5xl font-semibold ">12</h1>
           <p>
             years of <br /> experiences
           </p>
@@ -62,6 +61,32 @@ export default function HeroSection() {
         <div className=" flex tems-center gap-2">
           <h1 className=" text-5xl font-semibold i">12</h1>
           <p>
+            years of <br /> experiences
+          </p>
+        </div>
+      </div>
+      <div className=" grid grid-cols-2 gap-8 justify-between items-center mt-20 text-white md:hidden mx-auto">
+        <div className=" flex tems-center gap-2 ">
+          <h1 className=" text-4xl font-semibold ">12</h1>
+          <p className="text-sm">
+            years of <br /> experiences
+          </p>
+        </div>
+        <div className=" flex tems-center gap-2 ">
+          <h1 className=" text-4xl font-semibold ">12</h1>
+          <p className="text-sm">
+            years of <br /> experiences
+          </p>
+        </div>
+        <div className=" flex tems-center gap-2 ">
+          <h1 className=" text-4xl font-semibold ">12</h1>
+          <p className="text-sm">
+            years of <br /> experiences
+          </p>
+        </div>
+        <div className=" flex tems-center gap-2 ">
+          <h1 className=" text-4xl font-semibold ">12</h1>
+          <p className="text-sm">
             years of <br /> experiences
           </p>
         </div>
