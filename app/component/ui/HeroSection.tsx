@@ -33,7 +33,7 @@ export default function HeroSection() {
           </div>
         </div>
         <img
-          className="mx-auto mt-10 rounded-full border-4 border-[#34d399] w-80 h-80 object-cover"
+          className="mx-auto mt-10 rounded-full border-4 border-[#34d399] w-80 h-80 object-cover shadow-lg shadow-[#264137] "
           src="https://lh3.google.com/u/0/d/1eAB9m0aThHpUb_96_3w0ugh8_nADWhui=w886-h1594-iv1"
           alt=""
         />

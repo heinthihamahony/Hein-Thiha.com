@@ -19,7 +19,7 @@ export function InputFormDemo() {
   };
   return (
     <div className=" lg:flex mt-20 items-center gap-40 text-white">
-      <div className="max-w-md w-full lg:rounded-none rounded-2xl p-4 md:p-8 shadow-input bg-[#282730] dark:bg-black ">
+      <div className="max-w-md w-full rounded-2xl p-4 md:p-8 shadow-input bg-[#282730] dark:bg-black ">
         <h2 className="font-bold text-[#34d399] text-xl">
           Let's Work Together
         </h2>
@@ -27,7 +27,7 @@ export function InputFormDemo() {
           We are always looking for amazing projects.
         </p>
 
-        <form className="my-8 " onSubmit={handleSubmit}>
+        <form className="my-8" onSubmit={handleSubmit}>
           <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4 ">
             <LabelInputContainer>
               <Label className="text-[#9898a1] " htmlFor="firstname">

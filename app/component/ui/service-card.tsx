@@ -11,9 +11,9 @@ export default function ServiceCard() {
             <p className=" text-4xl font-bold my-3">$500/mo</p>
             <p className="text-sm text-[#9898a1]">1,800,000 MMK</p>
             <p className=" text-[#9898a1] my-5">
-              အစိတ်အပိုင်းလေးတွေကို လိုသလို ပေါင်းစပ်ဖွဲ့စည်းပြီး
-              တည်ဆောက်ခြင်းဖြစ်တယ်။ ကိုယ်ပိုင် Portfolio တည်ဆောက်ချင်သူများအတွက်
-              အထူးအသုံးဝင်ပါတယ်။
+              It's important to diversify investment portfolios to mitigate
+              risk. This allows investors to explore various asset classes and
+              allocate their funds accordingly.
             </p>
             <div className="space-y-4 text-sm text-[#9898a1]">
               <p className=" flex items-center gap-2">
@@ -123,9 +123,9 @@ export default function ServiceCard() {
             <p className=" text-4xl font-bold my-3">$800/mo</p>
             <p className="text-sm text-[#9898a1]">2,800,000 MMK</p>
             <p className=" text-[#9898a1] my-5">
-              လုပ်ငန်းစတင်တဲ့ Startup Business များအတွက် အထူးကောင်းမွန်ပါတယ်။
-              Web app ရဲ့ Data များကို Admin ကိုယ်တိုင်း ပြုပြင်၊ ထိန်းချုပ်
-              နိုင်မှာဖြစ်ပါတယ်။
+              Startups need an admin panel to manage and edit web app data to
+              optimize operations. Administrative duties and modifications to
+              maintain system performance are easy with this.
             </p>
             <div className="space-y-4 text-sm text-[#9898a1]">
               <p className=" flex items-center gap-2">
@@ -247,9 +247,9 @@ export default function ServiceCard() {
             <p className=" text-4xl font-bold my-3">$1,000/mo</p>
             <p className="text-sm text-[#9898a1]">3,600,000 MMK</p>
             <p className=" text-[#9898a1] my-5">
-              Small businesses and startups လုပ်ငန်းရှင် များအတွက်
-              အကောင်းဆုံးဖြစ်ပြီး High Performance ဖြစ်၍ ကြည့်ကောင်းပြီး မိမိ
-              app ကိုလာရောက်သူများကို Customer များအဖြစ် ပြောင်းလဲပေးနိုင်ပါတယ်။
+              For small businesses and startups, achieving high performance is
+              crucial in order to attract and retain customers through their
+              apps.
             </p>
             <div className="space-y-4 text-sm text-[#9898a1]">
               <p className=" flex items-center gap-2">

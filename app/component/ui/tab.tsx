@@ -36,8 +36,8 @@ export default function Tap() {
             <div className=" space-y-4">
               <h1 className="text-4xl font-semibold">My experiences</h1>
               <p className="text-[#9898a1]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
-                molestias repudiandae distinctio.
+                The following webpages are based on my personal practice and
+                experiences.
               </p>
             </div>
             <div className="">
@@ -58,8 +58,7 @@ export default function Tap() {
             <div className="space-y-4">
               <h1 className="text-4xl font-semibold">My education</h1>
               <p className="text-[#9898a1]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
-                molestias repudiandae distinctio.
+                The following content highlights my acadiemic qualifications.
               </p>
             </div>
             <div className="">
@@ -78,8 +77,7 @@ export default function Tap() {
             <div className="space-y-4">
               <h1 className="text-4xl font-semibold">My skills</h1>
               <p className="text-[#9898a1]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
-                molestias repudiandae distinctio.
+                The following coding language are those I am proficient in.
               </p>
             </div>
             <div className="">
@@ -96,10 +94,9 @@ export default function Tap() {
             }
           >
             <div className="space-y-4">
-              <h1 className="text-4xl font-semibold">My skills</h1>
+              <h1 className="text-4xl font-semibold">About me</h1>
               <p className="text-[#9898a1]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
-                molestias repudiandae distinctio.
+                Some of my topics are mentioned below.
               </p>
             </div>
             <div className="">

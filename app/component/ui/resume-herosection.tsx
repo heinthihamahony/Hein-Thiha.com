@@ -10,8 +10,7 @@ export default function ResumeHero() {
         <div className=" space-y-4">
           <h1 className=" text-4xl font-semibold">Why hire me?</h1>
           <p className="text-[#9898a1]">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
-            molestias repudiandae distinctio, fuga alias ipsa consequatur iusto
+            My experiences and skills can demostrate valuable contributions to your company. Additionally, my ability to effectively solve various challenges will help meet your needs and improve your business.
           </p>
         </div>
         <div className="hidden md:flex">
